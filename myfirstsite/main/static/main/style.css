@@ -1,0 +1,32 @@
+body {
+	background-image: url("/main/static/main/DSC_8730.jpg");
+	width: 600px;
+	height: 400px
+}
+.pager {
+	font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.pager {
+	list-style: none;
+	text-align: center;
+}
+.pager {
+	padding-left: 0;
+	margin: 22px 0;
+	list-style: none;
+	text-align: center;
+}
+.pager li {
+	display: inline;
+}
+.pager li > a, .pager li > span {
+	display: inline-block;
+	padding: 5px 14px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 15px;
+}
+.disabled {
+    color: #333333;
+    cursor: not-allowed;
+}
