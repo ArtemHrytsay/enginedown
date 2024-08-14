@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%2&9@wu4mclv9a)f3ph_i@9h2#=*tblm)c6+!!oaq=!fit=ipn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1,[::1]").split(",")
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "localhost,127.0.0.1,virjil.koyeb.app").split(",")
 
 
 # Application definition
